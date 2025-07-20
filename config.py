@@ -11,7 +11,8 @@ import streamlit as st
 load_dotenv()
 
 # OpenAI Configuration
-OPENAI_API_KEY = st.secrets["api_key"]
+# OPENAI_API_KEY = st.secrets["api_key"] #forstreamlit
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") #for azure
 ASSISTANT_ID = os.getenv("ASSISTANT_ID", "asst_PytLeS8CwhZiswnc11HCsmbO")
 
 # System Prompt for the Assistant
