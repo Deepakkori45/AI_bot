@@ -9,7 +9,7 @@ import uuid
 from datetime import datetime
 
 # Load environment variables
-
+load_dotenv()
 
 # Page configuration
 st.set_page_config(
