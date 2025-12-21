@@ -11,7 +11,6 @@ import streamlit as st
 load_dotenv()
 
 
-
 # OpenAI Configuration
 # OPENAI_API_KEY = st.secrets["api_key"] #forstreamlit
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") #for azure
