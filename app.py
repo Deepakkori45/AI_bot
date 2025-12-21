@@ -19,6 +19,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
 # Apply custom CSS
 st.markdown(config.CUSTOM_CSS, unsafe_allow_html=True)
 
