@@ -8,7 +8,6 @@ import config
 import uuid
 from datetime import datetime
 
-
 # Load environment variables
 load_dotenv()
 
