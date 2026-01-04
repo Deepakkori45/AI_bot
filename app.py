@@ -12,7 +12,6 @@ from datetime import datetime
 load_dotenv()
 
 
-
 # Page configuration
 st.set_page_config(
     page_title="AI Assistant Chat",
